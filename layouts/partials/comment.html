@@ -1,0 +1,12 @@
+{{- if .Site.Params.utterance.enable -}}
+    <div class="post bg-white">
+        <script src="https://utteranc.es/client.js"
+            repo= "{{ .Site.Params.utterance.repo }}"
+            issue-term="{{ .Site.Params.utterance.issue_term }}"
+            theme="{{ default "github-light" .Site.Params.utterance.theme }}"
+            label="{{ .Site.Params.utterance.label }}"
+            crossorigin="anonymous"
+            async>
+        </script>
+    </div>
+{{- end -}}
