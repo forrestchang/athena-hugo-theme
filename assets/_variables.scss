@@ -3,6 +3,7 @@
 $body-font-family: Athelas, Palatino, Georgia, serif;
 $body-font-size: 16px;
 $prose-font-size: 24px;
+$code-font-size: 18px;
 
 
 // Type scale
@@ -12,9 +13,9 @@ $h0-desktop: 96px;
 $h1-size: 40px !default;
 $h2-size: 32px !default;
 $h3-size: 24px !default;
-$h4-size: 20px !default;
-$h5-size: 16px !default;
-$h6-size: 12px !default;
+$h4-size: 24px !default;
+$h5-size: 24px !default;
+$h6-size: 24px !default;
 
 // Container width
 $container-width: 52em;
